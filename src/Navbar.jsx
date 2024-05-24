@@ -37,9 +37,8 @@ function Navbar() {
           <Link to="/">Home</Link>
           <Link to="/about">About Us</Link>
           <Link to="/services">Services</Link>
-          <Link to="/pricing">Pricing</Link>
-          <Link to="/contact">Contact</Link>
-          <Link to="/blog">Blog</Link>
+          
+          
         </div>
       </nav>
     </header>
@@ -47,3 +46,5 @@ function Navbar() {
 }
 
 export default Navbar;
+
+

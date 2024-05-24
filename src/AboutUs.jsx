@@ -1,9 +1,8 @@
 import React from 'react';
-
+import './AboutUs.css'
 function AboutUs() {
   return (
     <div>
-      {/* About Us Section Styles */}
 
       <div className="div">
         <div className="div-2">
@@ -19,9 +18,7 @@ function AboutUs() {
                   We Are Logistic Company
                 </div>
                 <div className="div-8">
-                  Elementum augue ut sagittis vel nunc. Posuere id velit integer
-                  proin aliquam facilisi quis et cras. Leo nulla integer et
-                  aliquet massa nunc. Ornare id sit ac varius enim ut nisl.
+                "Welcome to Moving Made Easy, where your relocation journey begins with trust and ease. As your trusted house moving partner, we're here to simplify every step of your transition."
                 </div>
               </div>
               <div className="div-9">

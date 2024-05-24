@@ -1,0 +1,123 @@
+/* PaymentForm.css */
+
+.payment-form {
+    max-width: 400px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #fff;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+  }
+  .change-service-message {
+    background-color: #fff3cd;
+    border: 1px solid #ffeeba;
+    border-radius: 4px;
+    padding: 10px;
+    margin-bottom: 20px;
+  }
+  
+  .change-service-options {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 10px;
+  }
+  
+  .change-service-button,
+  .retry-location-button {
+    display: inline-block;
+    padding: 8px 16px;
+    text-decoration: none;
+    font-family: 'DM Sans', sans-serif;
+    font-size: 14px;
+    font-weight: 500;
+    border-radius: 4px;
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.3s ease, color 0.3s ease;
+  }
+  
+  .change-service-button {
+    background-color: #ffc107;
+    color: #020800;
+  }
+  
+  .change-service-button:hover {
+    background-color: #e0a800;
+    color: #fff;
+  }
+  
+  .retry-location-button {
+    background-color: #6c757d;
+    color: #fff;
+  }
+  
+  .retry-location-button:hover {
+    background-color: #5a6268;
+  }
+  .payment-form h3 {
+    font-size: 24px;
+    font-weight: 700;
+    color: #020800;
+    margin-bottom: 10px;
+  }
+  
+  .payment-form p {
+    font-size: 16px;
+    line-height: 1.6;
+    color: #555;
+    margin-bottom: 10px;
+  }
+  
+  .payment-success {
+    text-align: center;
+    padding: 20px;
+    background-color: #e6f9e6;
+    border-radius: 8px;
+  }
+  
+  .payment-success h3 {
+    color: #4df600;
+  }
+  
+  .form-group {
+    margin-bottom: 15px;
+  }
+  
+  .form-group label {
+    display: block;
+    font-size: 14px;
+    font-weight: 600;
+    color: #020800;
+    margin-bottom: 5px;
+  }
+  
+  .form-group input.invalid {
+    border-color: #ff0000;
+  }
+  
+  .validation-error {
+    color: #ff0000;
+    font-size: 14px;
+    margin-bottom: 10px;
+  }
+  .pay-button {
+    display: inline-block;
+    padding: 12px 20px;
+    background-color: #4df600;
+    color: #020800;
+    text-decoration: none;
+    font-family: 'DM Sans', sans-serif;
+    font-size: 16px;
+    font-weight: 500;
+    border-radius: 6px;
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.3s ease, color 0.3s ease;
+  }
+  
+  .pay-button:hover {
+    background-color: #3dc300;
+    color: #fff;
+  }
+  
+  

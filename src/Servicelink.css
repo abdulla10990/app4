@@ -1,0 +1,20 @@
+/* ServiceLink.css */
+
+.service-link {
+    display: inline-block;
+    padding: 12px 20px;
+    background-color: #4df600; /* Accent color */
+    color: #020800; /* Text color on accent background */
+    text-decoration: none;
+    font-family: 'DM Sans', sans-serif;
+    font-size: 16px;
+    font-weight: 500;
+    border-radius: 6px;
+    transition: background-color 0.3s ease, color 0.3s ease;
+  }
+  
+  .service-link:hover {
+    background-color: #3dc300; /* Accent color on hover */
+    color: #fff; /* Text color on hover */
+  }
+  
